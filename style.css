@@ -61,7 +61,38 @@ body {
   width: 250px;
 }
 
-/*--------- Miolo 1 -----------*/
+/*--------- Miolo Valete -----------*/
+
+.miolo-valete {
+
+}
+
+.miolo-valete .rosto {
+  	width: 60px;
+	height: 100px;
+	-webkit-transform: skew(-15deg);
+	   -moz-transform: skew(-15deg);
+	     -o-transform: skew(-15deg);
+	background: #f4dcd9;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+
+.miolo-valete .nariz {
+  	width: 40px;
+	height: 45px;
+	-webkit-transform: skew(15deg);
+	   -moz-transform: skew(15deg);
+	     -o-transform: skew(15deg);
+	background: #f4dcd9;
+	display: block;
+	position: absolute;
+	top:5px;
+	left: 30px;
+}
+
+/*--------- Miolo A -----------*/
 .miolo-1 {
   text-align: center;
   line-height: 390px;
