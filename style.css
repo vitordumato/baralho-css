@@ -1,0 +1,481 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400);
+
+body {
+  background-color: gray;
+}
+
+.baralho {
+  position: relative;
+  top: 30px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.carta {
+  background-color: white;
+  height: 390px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 15px;
+  box-sizing: content-box;
+  position: relative;
+  float: left;
+  margin: 10px;
+  box-shadow: -1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.clear {
+  clear: both;
+}
+
+
+.naip-area {
+  height: 50%;
+  width: 100%;
+}
+
+.naip-area:nth-child(2) {
+  transform:rotate(180deg);
+}
+
+.naip-number, .naip-sign {
+  display:block;
+  width: 30px;
+  text-align: center;
+}
+
+.naip-number {
+  font-size: 45px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+.naip-sign {
+  font-size: 40px;
+}
+
+.carta-miolo {
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+/*--------- Miolo 1 -----------*/
+.miolo-1 {
+  text-align: center;
+  line-height: 390px;
+  font-size: 120px;
+}
+
+/*--------- Miolo 2 -----------*/
+.miolo-2 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-2 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.miolo-2 .naip-miolo:nth-child(1) {
+  top: 45px;
+}
+
+.miolo-2 .naip-miolo:nth-child(2) {
+  transform:rotate(180deg);
+  bottom: 45px;
+}
+
+/*--------- Miolo 3 -----------*/
+.miolo-3 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-3 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.miolo-3 .naip-miolo:nth-child(1) {
+  top: 45px;
+}
+
+.miolo-3 .naip-miolo:nth-child(2) {
+  top: 165px;
+}
+
+.miolo-3 .naip-miolo:nth-child(3) {
+  transform:rotate(180deg);
+  bottom: 45px;
+}
+
+/*--------- Miolo 4 -----------*/
+.miolo-4 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-4 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-4 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-4 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-4 .naip-miolo:nth-child(3) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  left: 0;
+}
+
+.miolo-4 .naip-miolo:nth-child(4) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  right: 0;
+}
+
+/*--------- Miolo 5 -----------*/
+.miolo-5 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-5 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-5 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-5 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-5 .naip-miolo:nth-child(3) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  left: 0;
+}
+
+.miolo-5 .naip-miolo:nth-child(4) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  right: 0;
+}
+
+.miolo-5 .naip-miolo:nth-child(5) {
+  top: 165px;
+  left: 60px;
+}
+
+
+/*--------- Miolo 6 -----------*/
+.miolo-6 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-6 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-6 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-6 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-6 .naip-miolo:nth-child(3) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  left: 0;
+}
+
+.miolo-6 .naip-miolo:nth-child(4) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  right: 0;
+}
+
+.miolo-6 .naip-miolo:nth-child(5) {
+  top: 165px;
+  left:0;
+}
+
+.miolo-6 .naip-miolo:nth-child(6) {
+  top: 165px;
+  right:0;
+}
+
+/*--------- Miolo 7 -----------*/
+.miolo-7 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-7 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-7 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-7 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-7 .naip-miolo:nth-child(3) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  left: 0;
+}
+
+.miolo-7 .naip-miolo:nth-child(4) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  right: 0;
+}
+
+.miolo-7 .naip-miolo:nth-child(5) {
+  top: 165px;
+  left:0;
+}
+
+.miolo-7 .naip-miolo:nth-child(6) {
+  top: 165px;
+  right:0;
+}
+
+.miolo-7 .naip-miolo:nth-child(7) {
+  top: 110px;
+  left: 60px;
+}
+
+
+
+/*--------- Miolo 8 -----------*/
+.miolo-8 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-8 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-8 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-8 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-8 .naip-miolo:nth-child(3) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  left: 0;
+}
+
+.miolo-8 .naip-miolo:nth-child(4) {
+  transform:rotate(180deg);
+  bottom: 45px;
+  right: 0;
+}
+
+.miolo-8 .naip-miolo:nth-child(5) {
+  top: 165px;
+  left:0;
+}
+
+.miolo-8 .naip-miolo:nth-child(6) {
+  top: 165px;
+  right:0;
+}
+
+.miolo-8 .naip-miolo:nth-child(7) {
+  top: 110px;
+  left: 60px;
+}
+
+.miolo-8 .naip-miolo:nth-child(8) {
+  top: 230px;
+  left: 60px;
+  transform:rotate(180deg);
+}
+
+
+
+/*--------- Miolo 9 -----------*/
+.miolo-9 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-9 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-9 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-9 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-9 .naip-miolo:nth-child(3) {
+  top: 125px;
+  left: 0;
+}
+
+.miolo-9 .naip-miolo:nth-child(4) {
+  top: 125px;
+  right: 0;
+}
+
+.miolo-9 .naip-miolo:nth-child(5) {
+  bottom: 45px;
+  left:0;
+  transform:rotate(180deg);
+}
+
+.miolo-9 .naip-miolo:nth-child(6) {
+  bottom: 45px;
+  right:0;
+  transform:rotate(180deg);
+}
+
+.miolo-9 .naip-miolo:nth-child(7) {
+  bottom: 125px;
+  left: 0;
+  transform:rotate(180deg);
+}
+
+.miolo-9 .naip-miolo:nth-child(8) {
+  bottom: 125px;
+  right: 0;
+  transform:rotate(180deg);
+}
+
+.miolo-9 .naip-miolo:nth-child(9) {
+  top: 165px;
+  left: 60px;
+}
+
+
+
+/*--------- Miolo 10 -----------*/
+.miolo-10 {
+  text-align: center;
+  font-size: 80px;
+  height: 100%;
+}
+
+.miolo-10 .naip-miolo {
+  display: block;
+  position: absolute;
+  width: 50%;
+}
+
+.miolo-10 .naip-miolo:nth-child(1) {
+  top: 45px;
+  left: 0;
+}
+
+.miolo-10 .naip-miolo:nth-child(2) {
+  top: 45px;
+  right: 0;
+}
+
+.miolo-10 .naip-miolo:nth-child(3) {
+  top: 125px;
+  left: 0;
+}
+
+.miolo-10 .naip-miolo:nth-child(4) {
+  top: 125px;
+  right: 0;
+}
+
+.miolo-10 .naip-miolo:nth-child(5) {
+  bottom: 45px;
+  left:0;
+  transform:rotate(180deg);
+}
+
+.miolo-10 .naip-miolo:nth-child(6) {
+  bottom: 45px;
+  right:0;
+  transform:rotate(180deg);
+}
+
+.miolo-10 .naip-miolo:nth-child(7) {
+  bottom: 125px;
+  left: 0;
+  transform:rotate(180deg);
+}
+
+.miolo-10 .naip-miolo:nth-child(8) {
+  bottom: 125px;
+  right: 0;
+  transform:rotate(180deg);
+}
+
+.miolo-10 .naip-miolo:nth-child(9) {
+  top: 90px;
+  left: 60px;
+}
+
+.miolo-10 .naip-miolo:nth-child(10) {
+  bottom: 90px;
+  left: 60px;
+  transform:rotate(180deg);
+}
+
